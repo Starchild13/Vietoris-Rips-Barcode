@@ -68,8 +68,6 @@ def plot_barcode(diagrams):
     plt.show()
     plt.savefig('persistence_barcode.png')
 
-
-
 # Call the plotting function with the calculated diagrams
 plot_barcode(dgms)
 
