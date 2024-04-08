@@ -60,8 +60,8 @@ def plot_barcode(diagrams):
     ax.set_xticklabels(tick_labels)
 
     # Setting the plot title and labels
-    plt.title("Persistence Barcode")
-    plt.xlabel("Filtration value")
+    plt.title("Persistence Barcode with Vietoris-Rips filtration")
+    plt.xlabel("Time")
     plt.ylabel("Homology dimension")
 
     # Show the complete plot
