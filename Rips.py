@@ -54,8 +54,8 @@ def plot_barcode(diagrams):
     ax.set_yticklabels(y_tick_labels)
 
     # Positions and labels for the x-axis
-    tick_positions = [1, 2, 3, 4] # Assuming these positions are relevant for your data
-    tick_labels = ['$t_1$', '$t_2$', '$t_3$', '$t_4$'] # Labels for the x-axis
+    tick_positions = [0,1, 2, 3, 4] # Assuming these positions are relevant for your data
+    tick_labels = ['$t_0$','$t_1$', '$t_2$', '$t_3$', '$t_4$'] # Labels for the x-axis
     ax.set_xticks(tick_positions)
     ax.set_xticklabels(tick_labels)
 
