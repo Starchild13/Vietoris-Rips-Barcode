@@ -4,7 +4,7 @@ import dionysus as d
 from matplotlib.ticker import FuncFormatter
 
 # Example: Create a random point cloud
-points = np.random.random((10, 3)) # Generate 70 points in 3D space, each coordinate is randomly chosen from [0,1)
+points = np.random.random((70, 3)) # Generate 70 points in 3D space, each coordinate is randomly chosen from [0,1)
 
 # Convert point cloud to a Vietoris-Rips filtration
 f = d.fill_rips(points, 3, 2.0) # Create a Vietoris-Rips complex with points, targeting 3D homology, radius up to 2.0
